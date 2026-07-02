@@ -1,1 +1,187 @@
-我是一個創作者
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank | Mobile App Developer Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', sans-serif;
+            color: #1e293b;
+            background-color: #f8fafc;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .header-banner {
+            padding: 40px 30px;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+        .header-banner h1 {
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .header-banner .subtitle {
+            margin: 0 0 15px 0;
+            font-size: 18px;
+            color: #bfdbfe;
+            font-weight: 300;
+        }
+        .header-banner .contact-info {
+            font-size: 14px;
+            color: #eff6ff;
+        }
+        .header-banner .contact-info span {
+            margin-right: 20px;
+            display: inline-block;
+        }
+        h2 {
+            font-size: 20px;
+            color: #1e3a8a;
+            margin: 35px 0 15px 0;
+            padding-left: 10px;
+            border-left: 4px solid #3b82f6;
+        }
+        p {
+            margin: 0 0 12px 0;
+            text-align: justify;
+        }
+        .intro-box {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgb(0 0 0 / 0.05);
+        }
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgb(0 0 0 / 0.05);
+        }
+        .skills-table th, .skills-table td {
+            border: 1px solid #e2e8f0;
+            padding: 12px 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .skills-table th {
+            background-color: #f1f5f9;
+            color: #1e3a8a;
+            font-weight: 600;
+            width: 25%;
+        }
+        .skills-table td ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .skills-table td ul li {
+            margin-bottom: 6px;
+        }
+        .project-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #cbd5e1;
+        }
+        .project-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .project-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: #0f172a;
+            margin-bottom: 4px;
+        }
+        .project-tech {
+            font-size: 13px;
+            color: #64748b;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-banner">
+            <h1>Frank Kuo</h1>
+            <div class="subtitle">行動應用開發工程師 | Mobile App Developer</div>
+            <div class="contact-info">
+                <span>📧 frank.kuo@example.com</span>
+                <span>🌐 github.com/frank-appdev</span>
+                <span>📍 台灣高雄</span>
+            </div>
+        </div>
+
+        <h2>關於我 / Summary</h2>
+        <div class="intro-box">
+            <p>你好，我是 Frank。專注於手機 App 的架構設計與程式碼編寫，熱衷於將創新的想法轉化為流暢、直覺且高效的行動裝置體驗。具備扎實的開發技術，並持續追求乾淨、好維護的程式碼品質（Clean Code）。無論是從零到一的產品全新開發，還是既有核心功能的重構優化，我都致力於為使用者打造最具價值的數位生活工具。</p>
+        </div>
+
+        <h2>技術專長 / Technical Skills</h2>
+        <table class="skills-table">
+            <tr>
+                <th>核心技術 (Core)</th>
+                <td>
+                    <ul>
+                        <li>iOS 開發 (Swift / UIKit / SwiftUI)</li>
+                        <li>Android 開發 (Kotlin / Jetpack Compose)</li>
+                        <li>跨平台架構 (Flutter / Dart)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>架構與模式</th>
+                <td>
+                    <ul>
+                        <li>MVVM, MVP, Clean Architecture</li>
+                        <li>擅長將複雜邏輯轉化為低耦合、高可擴充性的程式碼</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>工具 & 平台</th>
+                <td>
+                    <ul>
+                        <li>Git 版本控制、GitHub / GitLab CI/CD Pipeline</li>
+                        <li>RESTful API 整合、Firebase 雲端服務、App Store / Google Play 上架流程</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h2>專案經驗 / Project Highlights</h2>
+        <div class="intro-box">
+            <div class="project-item">
+                <div class="project-title">1. 智慧生活排程工具 (Efficio App)</div>
+                <div class="project-tech">使用技術：Flutter, BLoC Pattern, Hive DB, Firebase</div>
+                <p>獨立開發的一款跨平台時間管理 App。優化複雜的在地化資料快取機制，使離線載入速度提升 40%，並導入推播通知大幅提高使用者每日活躍度。</p>
+            </div>
+            <div class="project-item">
+                <div class="project-title">2. 電商平台行動客戶端 (ShopFlow)</div>
+                <div class="project-tech">使用技術：Swift, SwiftUI, Combine, URLSession</div>
+                <p>參與團隊開發的 iOS 購物 App。負責重構購物車與動態結帳模組，成功將 Crash 率降低至 0.1% 以下，並顯著提升介面滑動的流暢度。</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
